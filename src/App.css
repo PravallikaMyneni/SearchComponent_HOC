@@ -1,0 +1,48 @@
+.App{
+  display: flex;
+}
+.App-child{
+  width:45%;
+  flex-direction: column;
+}
+.bookItem, .authorItem{
+  margin-left: 20px;
+  margin-top: 5px;
+
+}
+.bookItem p, .authorItem p{
+  margin: 0px;
+  font-size: 14px;
+}
+.bookItem label, .authorItem label{
+  font-weight: 700;
+  font-size: 13px;
+  
+}
+.searchBox{
+  margin-left: 20px;
+  border-bottom: 2px solid;
+  background-color: rgb(250, 245, 245);
+}
+.searchBox label{
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.searchBox input{
+  font-size: 13px;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.noResults p{
+text-align: center;
+font-size: 16px;
+font-weight: lighter;
+height: 200px;
+margin-top: 50px;
+}
+h3{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
